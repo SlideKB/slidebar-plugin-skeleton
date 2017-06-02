@@ -6,6 +6,7 @@ import com.github.slidekb.api.AlphaKeyManager;
 import com.github.slidekb.api.HotKeyManager;
 import com.github.slidekb.api.SlideBarPlugin;
 import com.github.slidekb.api.Slider;
+import com.github.slidekb.api.SliderManager;
 import com.google.auto.service.AutoService;
 
 /**
@@ -102,10 +103,10 @@ public class PluginSkeleton implements SlideBarPlugin {
 
     }
 
-    @Override
-    public void setSlider(Slider slider) {
-        // TODO Auto-generated method stub
-
-    }
+	@Override
+	public void setSliderManager(SliderManager sliderManager) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
