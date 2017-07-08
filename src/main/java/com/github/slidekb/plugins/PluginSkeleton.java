@@ -26,28 +26,34 @@ public class PluginSkeleton implements SlideBarPlugin {
         return null;
     }
 
-	@Override
-	public void run() {
-		// TODO Auto-generated method stub
-		
-	}
+    @Override
+    public void run() {
+        // TODO Auto-generated method stub
 
-	@Override
-	public void runFirst() {
-		// TODO Auto-generated method stub
-		
-	}
+    }
 
-	@Override
-	public void setSlider(Slider slider, int position) {
-		// TODO Auto-generated method stub
-		
-	}
+    @Override
+    public void runFirst() {
+        // TODO Auto-generated method stub
 
-	@Override
-	public int numberOfSlidersRequired() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+    }
+
+    @Override
+    public void setSlider(Slider slider, int position) {
+        // TODO Auto-generated method stub
+
+    }
+
+    @Override
+    public int numberOfSlidersRequired() {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    @Override
+    public void setup() {
+        // TODO Auto-generated method stub
+
+    }
 
 }
