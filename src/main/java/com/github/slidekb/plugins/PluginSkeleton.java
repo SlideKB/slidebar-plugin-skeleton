@@ -26,87 +26,33 @@ public class PluginSkeleton implements SlideBarPlugin {
     }
 
     @Override
-    public String[] getProcessNames() {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-    @Override
-    public boolean usesProcessNames() {
-        // TODO Auto-generated method stub
-        return false;
-    }
-
-    @Override
-    public String currentlyUsedSlider() {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-    @Override
-    public void attachToProcess(String processName) {
-        // TODO Auto-generated method stub
-
-    }
-
-    @Override
-    public void detachFromProcess(String processName) {
-        // TODO Auto-generated method stub
-
-    }
-
-    @Override
-    public void run(String process) {
-        // TODO Auto-generated method stub
-
-    }
-
-    @Override
-    public JFrame getConfigWindow() {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-    @Override
-    public void runFirst(String process) {
-        // TODO Auto-generated method stub
-
-    }
-
-    @Override
     public String getLabelName() {
         // TODO Auto-generated method stub
         return null;
     }
 
-    @Override
-    public JFrame getProcessWindow() {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-    @Override
-    public void reloadPropFile() {
-        // TODO Auto-generated method stub
-
-    }
-
-    @Override
-    public void setAlphaKeyManager(AlphaKeyManager alphaKeyManager) {
-        // TODO Auto-generated method stub
-
-    }
-
-    @Override
-    public void setHotKeyManager(HotKeyManager hotKeyManager) {
-        // TODO Auto-generated method stub
-
-    }
-
 	@Override
-	public void setSliderManager(SliderManager sliderManager) {
+	public void run() {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public void runFirst() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setSlider(Slider slider, int position) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int numberOfSlidersRequired() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }
