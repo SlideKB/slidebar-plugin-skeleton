@@ -56,4 +56,10 @@ public class PluginSkeleton implements SlideBarPlugin {
 
     }
 
+	@Override
+	public void teardown() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
